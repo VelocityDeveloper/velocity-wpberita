@@ -1,5 +1,7 @@
-Velocity Child Theme
+Velocity WP-Berita Child Theme
 =================
+
+Demo theme: https://beritab2.velocitydeveloper.com/
 
 Child Theme for the Velocity System WordPress theme.
 
