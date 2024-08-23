@@ -302,7 +302,7 @@ function velocity_post_tags($post_id = null) {
     if (empty($post_id)){
         $post_id = $post->ID;
     }
-	$terms = get_the_terms( $post_id, array( 'post_tag') );
+	$terms = get_the_terms( $post_id, 'post_tag' );
 	if($terms){
 		echo '<div class="velocity-post-terms">Tags:';
 		foreach($terms as $term){
